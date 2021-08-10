@@ -8,7 +8,7 @@ func check_area():
 		if "area".to_upper() in area.name.to_upper():
 			print ("COLLIDED WITH: ", area.name)
 		else:			
-			print ("NOT COLLIDING ")
+			print ("NOT COLLIDING ") # <<=== WHY THIS NEVER HAPPENS?
 
 
 func _physics_process(delta):
